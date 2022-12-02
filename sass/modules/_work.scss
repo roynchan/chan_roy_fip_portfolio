@@ -1,0 +1,54 @@
+.work_header{
+    font-family: 'Comfortaa', cursive;
+    color: #1baaa7;
+    position: absolute;
+   top: 5%;
+   right: 43%;
+   font-size:3vmax;
+}
+
+.project p {
+    font-family: 'Comfortaa', cursive;
+    color: #1baaa7;
+    margin-left: 1em;
+}
+
+.characters img:hover {
+    box-shadow: 5px 5px 200px #1baaa7;
+    cursor: pointer;
+    transition: .5s;
+}
+
+
+.characters  { 
+    position: relative;
+    display: grid;
+    grid-column: 2 / span 2;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2em;
+    column-gap: 0em;
+    justify-content: center;
+  
+    /* border: thin dashed white; */
+  }
+  .characters img {
+    height: 30vh;
+    box-shadow: 5px 5px 20px #000;
+}
+
+//mobile 
+@media only screen and (max-width: 600px) {
+
+    .characters  { 
+        position: relative;
+        display: grid;
+        grid-column: 2 / span 2;
+        grid-template-columns: 1fr;
+        row-gap: 2em;
+        column-gap: 0em;
+        justify-content: center;
+      
+        /* border: thin dashed white; */
+      }
+
+ }

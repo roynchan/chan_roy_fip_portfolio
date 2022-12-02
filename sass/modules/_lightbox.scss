@@ -1,0 +1,58 @@
+.lightbox {
+
+  
+    width: 100vw;
+    height: 100vh;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    background-color: rgba(0, 0, 0, 0.9);
+    background-image: url('../images/Cap_LB_Bg.png');
+    background-repeat: no-repeat;
+  
+    background-position: 40px bottom;
+    background-size: 55vh;
+  
+    z-index: 5000;
+}
+
+.lightbox_close { 
+    position: relative; 
+    top: 20px;
+    left: 95%;
+    cursor: pointer;
+  
+    width: 25px;
+  }
+  
+  .lightbox_close:hover { 
+    opacity: 0.7; 
+    transform: scale(-1, 1); 
+  }
+  
+  .lightbox article { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%; 
+    padding-top: 50px;
+    color: #ffff;
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  
+  .lb_text { 
+    line-height: 1.6 !important;
+    margin-left: 0;
+    padding-top: 2em;
+  }
+
+  .propic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
